@@ -35,24 +35,33 @@ student_score.csv
 
 ## Steps to be executed
 
-1. Load Dataset
+### Load Dataset
 df = pd.read_csv("student_scores.csv")
+
 ![architecture](assets/kaggle.png)
 
-2. Split Data
+### Split Data
+
 train_test_split()
 
-3. Upload to S3
+### Upload to S3
+
 boto3
 sagemaker.Session()
 
-4. Train Model in SageMaker
+### Train Model in SageMaker
 
 Using built-in Linear Learner algorithm.
 
-5. Deploy Endpoint
+![architecture](assets/train.png)
+
+### Deploy Endpoint
 
 Model deployed using SageMaker endpoint.
 
-6. Run Prediction
+![architecture](assets/create_enpoint.png)
+
+### Run Prediction
 Send input data => get predicted score.
+
+![architecture](assets/run_prediction.png)
