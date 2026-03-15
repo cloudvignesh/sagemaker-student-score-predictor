@@ -35,6 +35,8 @@ student_score.csv
 
 ## Steps to be executed
 
+### For detailed step by step execution guide, refer the [ml_project.ipynb](https://github.com/cloudvignesh/sagemaker-student-score-predictor/blob/main/ml_project.ipynb)
+
 ### Load Dataset
 df = pd.read_csv("student_scores.csv")
 
