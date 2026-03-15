@@ -26,10 +26,15 @@ student_score.csv
 ## Prerequisite
 
 ![architecture](assets/setup_1.png)
+
 ![architecture](assets/setup_2.png)
+
 ![architecture](assets/create_domain.png)
+
 ![architecture](assets/launch_space.png)
+
 ![architecture](assets/open_lab.png)
+
 ![architecture](assets/open_lab_python.png)
 
 
@@ -38,6 +43,7 @@ student_score.csv
 ### For detailed step by step execution guide, refer the [ml_project.ipynb](https://github.com/cloudvignesh/sagemaker-student-score-predictor/blob/main/ml_project.ipynb)
 
 ### Load Dataset
+
 df = pd.read_csv("student_scores.csv")
 
 ![architecture](assets/kaggle.png)
